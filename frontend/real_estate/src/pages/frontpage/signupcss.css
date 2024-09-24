@@ -1,0 +1,35 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.signup-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.role-selection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.signup-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-option {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-option a {
+  color: #007BFF;
+  text-decoration: none;
+}
